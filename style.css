@@ -1,0 +1,71 @@
+body{
+    background-size: cover;
+     text-align: center;
+     border: 5px solid white;
+    color: white;
+    
+}
+#container{
+    background-image: url(yellow-unsplash.jpg);
+    width: 800PX;
+    margin-left: auto;
+    margin-right: auto;
+}
+#header{
+    background-color: #66CCFF;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+}
+#content{
+    padding: 10px 10px 10px 10px;
+}
+#main{
+    width: 500px;
+    float: left;
+}
+img{
+    border-radius: 50%;
+    align-content: space-around;
+}
+#nav{
+width: 280px;
+float: right;
+}
+#form{
+display: flex;
+clear: both;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+padding: 10px;
+min-height: auto;
+background-color: #66CCFF;
+}
+input[type=text], select, textarea {
+    width: 300px;
+    height: 25px; /* Full width */
+    padding: 15px; /* Some padding */ 
+    border-radius: 4px; /* Rounded borders */
+    display: block;
+    margin-bottom: 10px;
+}
+input[type=submit] {
+    background-color: darkblue;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 300px;
+}
+h1, h2, p, label{
+color: darkblue;
+text-align: center;
+}
+p {
+    line-height: 20px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: medium;
+}
